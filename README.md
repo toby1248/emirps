@@ -4,7 +4,7 @@ A GPU-accelerated search engine that was used to find a **world-record 10,069-di
 
 ## What is an Emirp?
 
-An **emirp** (*prime* spelled backwards) is a prime number whose digit-reversal is a different prime. For example, 13 is an emirp because 31 is also prime. The current world record stands at [thousands of digits](https://primes.utm.edu/). This tool searches for a 10,069-digit emirp, which would set a new record.
+An **emirp** (*prime* spelled backwards) is a prime number whose digit-reversal is a different prime. For example, 13 is an emirp because 31 is also prime. This tool by default searches for a 10,069-digit emirp, which is larger than the currently conclusively proven world record.
 
 ## Architecture
 
