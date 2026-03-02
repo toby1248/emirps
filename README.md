@@ -19,7 +19,7 @@ Async pipeline           – GPU produces next batch while CPU tests the current
 CPU BPSW pipeline        – Miller-Rabin (base 2 & 3) → full Lucas test on survivors
 ```
 
-The sieve covers all primes up to 2³² (~203 million primes). An optional extended sieve can reach up to 2³⁴ at the cost of ~4.5 GB of VRAM.
+The sieve covers all primes up to 2³² (~203 million primes). An optional extended sieve can reach up to 2³⁴ at the cost of ~4.5 GB of VRAM and much heavier GPU load.
 
 A **ratcheting schedule** progressively searches at increasing digit counts (1,001 → 2,001 → … → 10,069), with configurable time budgets at each level.
 
